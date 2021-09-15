@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Prac 1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title> Prac 1 </title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="prac.css">
+    <script src="vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="prac1.html">Practical 1</a>
+    <a href="prac2.html">Practical 2</a>
+    <a href="prac3.html">Practical 3</a>
+    <a href="prac4.html">Practical 4</a>
+    <a href="prac5.html">Practical 5</a>
+    <a href="prac6.html">Practical 6</a>
+    <a href="prac7.html">Practical 7</a>
+    <input type="text" placeholder="Search..">
+  </div>
+  <body>
+    <h1 style="color: #9345ee;"> Number and Arrays Methods</h1>
+    
+    <div>
+    <h2> Number</h2>
+    <div>
+    <p id="hello"></p>
+  <script>
+let x = 36.9826;
+document.getElementById("hello").innerHTML =
+  x.toFixed(0) + "<br>" +
+  x.toFixed(3) + "<br>" +
+  x.toFixed(6) + "<br>" +
+  x.toFixed(9);
+</script>
+      </div>
+      
+    <h2>Array</h2>
+      
+   <div>
+<p id="car"></p>
+
+<script>
+const cars = ["Mercedes", " Holden", " Ford", " Suburu"];
+document.getElementById("car").innerHTML = cars.toString();
+</script>
+      </div>
+    <h1 style="color: #9345ee;"> Get and Set Methods</h1>
+      
+      <div>
+      <h2>Get</h2>
+      <p id="year"></p>
+
+<script>
+const year = new Date();
+document.getElementById("year").innerHTML = year.getFullYear();
+</script>
+      </div>
+        
+      <div>
+     <h2>Set</h2>
+      <p id="setyear"></p>
+
+<script>
+const setyear = new Date();
+setyear.setFullYear(1986);
+document.getElementById("setyear").innerHTML = setyear;
+</script>
+      </div>  
+    </body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

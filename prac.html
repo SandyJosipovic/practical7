@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Prac 1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title> Prac 1 </title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="prac.css">
+    <script src="vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="prac1.html">Practical 1</a>
+    <a href="prac2.html">Practical 2</a>
+    <a href="prac3.html">Practical 3</a>
+    <a href="prac4.html">Practical 4</a>
+    <a href="prac5.html">Practical 5</a>
+    <a href="prac6.html">Practical 6</a>
+    <a href="prac7.html">Practical 7</a>
+    <input type="text" placeholder="Search..">
+  </div>
+  <body>
+    <h1 style="color: #9345ee;"> Welcome</h1>
+    <p>Welcome to my practical work web page. This webpage practical will be both a my work and webpage that presents my practical work</p>
+
+    <h1> Todo List</h1>
+    <div id="prac-1">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <script src="prac.js"></script>
+
+    <img src="practical.jpg" alt="practical image" width="350" height="350">
+    
+  </body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

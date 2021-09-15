@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - pracf</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title> Prac 1 </title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="prac.css">
+    <script src="vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="topnav">
+    <a href="prac.html">Home</a>
+    <a href="prac1.html">Practical 1</a>
+    <a href="prac2.html">Practical 2</a>
+    <a href="prac3.html">Practical 3</a>
+    <a href="prac4.html">Practical 4</a>
+    <a href="prac5.html">Practical 5</a>
+    <a href="prac6.html">Practical 6</a>
+    <a href="prac7.html">Practical 7</a>
+    <input type="text" placeholder="Search..">
+  </div>
+  <body>
+    <h1 style="color: #9345ee;"> Practical</h1>
+    <p>This is my practical number 1. I am using "< p>, < html>, < div>, < title> and < img src>". These are my five tags. Also using < h1>". I have also created two differnt columns, one showcasing a none working image and the other has a button you can press for help. I used inline ccs for the column styles and used external for the pages style. Column 2 has a time and date button using internal javascript.</p>
+
+    <div class="column" style="background-color:#aaa;">
+      <h1 style="color: #9345ee;"> Not working image </h1>
+      <p>Image doesn't work</p>
+      <img src="hello" />
+    </div>
+
+    <div class="column" style="background-color:#bbb;">
+      <h1 style="color: #9345ee;"> Time and Date</h1>
+      <button type="button" onclick="document.getElementById('date_time_button').innerHTML = Date()">
+        Date and Time button.</button>
+    </div>
+
+    <h1> Todo List</h1>
+    <div id="prac-1">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <script src="prac.js"></script>
+
+  </body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
